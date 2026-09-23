@@ -10,7 +10,9 @@ Simon asks: **$ARGUMENTS**
 Get today's date and weekday in Pacific (`TZ=America/Los_Angeles date`). Then Grep
 `^status: needs-import` across `chiefs/*/projects/*.md`.
 
-- **The question is empty** and there are placeholders → run **Import** (below).
+- **The question is empty** → first print the `## Next session` section of `brain/state.md` exactly
+  as written, so Simon sees the plan. Then, if there are placeholders, run **Import** (below). Keep
+  that section current: after each import, tick it off there.
 - **The question is real** → answer it first (steps 1–4), then add one line at the end: *"N projects
   still need importing — say `import` to do the next one."* Don't hijack his question.
 - If the brief or a chief needs a project that hasn't been imported, say so plainly — don't guess
