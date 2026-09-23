@@ -1,0 +1,67 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(/brain/**)",
+      "Edit(/chiefs/**)",
+
+      "Bash(TZ=America/Los_Angeles date *)",
+      "Bash(git status *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git fetch *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+
+      "mcp__Google_Calendar__list_calendars",
+      "mcp__Google_Calendar__list_events",
+      "mcp__Google_Calendar__search_events",
+      "mcp__Google_Calendar__get_event",
+
+      "mcp__Gmail__search_threads",
+      "mcp__Gmail__get_thread",
+      "mcp__Gmail__get_message",
+      "mcp__Gmail__list_labels",
+
+      "mcp__Shopify__get-shop-info",
+      "mcp__Shopify__list-orders",
+      "mcp__Shopify__get-order",
+      "mcp__Shopify__list-customers",
+      "mcp__Shopify__search_products",
+      "mcp__Shopify__get-product",
+      "mcp__Shopify__get-inventory-levels",
+      "mcp__Shopify__search_collections",
+      "mcp__Shopify__get-collection",
+      "mcp__Shopify__run-analytics-query",
+      "mcp__Shopify__graphql_schema",
+      "mcp__Shopify__graphql_query",
+
+      "mcp__Notion__notion-search",
+      "mcp__Notion__notion-fetch"
+    ],
+    "deny": [
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(git reset --hard *)"
+    ],
+    "ask": [
+      "mcp__Gmail__send_message",
+      "mcp__Gmail__reply",
+      "mcp__Gmail__forward",
+      "mcp__Gmail__trash_message",
+      "mcp__Gmail__trash_thread",
+      "mcp__Shopify__graphql_mutation",
+      "mcp__Shopify__bulk-update-product-status",
+      "mcp__Shopify__update-product",
+      "mcp__Shopify__create-discount",
+      "mcp__Shopify__set-inventory",
+      "mcp__Google_Calendar__create_event",
+      "mcp__Google_Calendar__update_event",
+      "mcp__Google_Calendar__delete_event",
+      "mcp__Gmail__create_draft",
+      "mcp__Notion__notion-update-page",
+      "mcp__Notion__notion-create-pages"
+    ]
+  }
+}
