@@ -23,18 +23,35 @@ One CEO you talk to. Three chiefs under it. Every project in a file, so nothing 
 | `/ceo what's my week look like` | All three chiefs at once, one answer. |
 | `/brief` | The daily brief, on demand. Also runs itself every morning at 7:00. |
 | `/school …` `/business …` `/life …` | Straight to that chief. Follow-ups stay with it until you switch. |
-| `/project ap-chem` | Open one project and work only on it. |
-| `/projects` | Everything, one line each. `/projects school` for one chief. |
+| `/project calc-2` | Open one project and work only on it. |
+| `/projects` | Everything, one line each, priority 1 first. `/projects school` for one chief. |
 | `/new-project school AP Bio` | Start a new project. |
 
-**First time:** run `/ceo`. It sees school and life are empty and interviews you — classes, what's
-due, training, money — checking your calendar and inbox as it goes. About 10–15 minutes.
+**First time:** run `/ceo` with nothing after it. It asks which projects can never slip, then imports
+your Claude Projects one at a time, most important first. For each one you paste its instructions and
+files, the chief checks your calendar and inbox, and you get a real project file. The chiefs **can't
+read Claude Projects on their own**. Nothing crosses over until you paste it.
+
+## Projects and priority
+
+| Chief | Projects |
+|---|---|
+| School | English 101 · Calc 2 |
+| Business | PNW $5k month · Shopify · Marketing · Coatify · Business |
+| Life | New House · Health · Money · Life dashboard · Calendar · Work flow planning |
+
+Every project has `priority:` **1** (can't slip), **2** (important) or **3** (when there's time).
+Everything is sorted by priority first, then due date. When two things clash, the higher one wins.
+
+Chiefs can **read each other's** projects, so life sees store income when house costs come up and
+business sees your school week before planning weekend work. They can only suggest changes to their
+own. Anything for another chief goes to the CEO.
 
 ## Who's allowed to do what
 
 | | Read files & connectors | Change the memory | Send email, touch Shopify, book things |
 |---|---|---|---|
-| Chiefs | ✅ | ❌ propose only | ❌ |
+| Chiefs | ✅ all chiefs' projects | ❌ propose only | ❌ |
 | CEO | ✅ | ✅ commits every change | ❌ asks you |
 | You | — | — | ✅ always asked first |
 

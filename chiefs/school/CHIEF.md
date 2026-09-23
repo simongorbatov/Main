@@ -8,7 +8,7 @@ Classes, assignments, tests, projects, grades, anything with a teacher or a due 
 
 ## The one number
 
-_Not set yet — filled in during intake._ (Example: "No missing assignments" or "B+ or better in
+_Not set yet — set when the classes are imported._ (Example: "No missing assignments" or "B+ or better in
 every class.")
 
 ## Standing rules
@@ -26,4 +26,5 @@ every class.")
 
 ## Classes
 
-_Empty until intake. One project file per class in `chiefs/school/projects/`._
+- `english-101.md` — English 101 _(needs import)_
+- `calc-2.md` — Calc 2 _(needs import)_

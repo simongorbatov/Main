@@ -10,8 +10,8 @@ Facts every chief needs. The CEO keeps this current; update it the moment someth
 
 ## Fixed blocks — never schedule over these
 
-- `[School]` — class hours. _Exact hours: fill in during intake._
-- `[Health]` — training and health. _Exact days/times: fill in during intake._
+- `[School]` — class hours. _Exact hours: not known yet — ask Simon._
+- `[Health]` — training and health. _Exact days/times: likely in the Health project — fill in at import._
 - Store work goes after school and before training on weekdays, 10:00 on weekends.
 
 ## Calendar labels
@@ -24,7 +24,7 @@ Facts every chief needs. The CEO keeps this current; update it the moment someth
 - One next action per thing.
 - Honest about what slipped. Overdue is said plainly, not buried.
 
-## Unknowns — ask during intake
+## Unknowns — ask when relevant
 
 - Class list and teachers
 - School day start/end

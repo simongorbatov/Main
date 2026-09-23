@@ -1,7 +1,8 @@
 ---
 chief: school            # school | business | life
 name: Project Name
-status: active           # active | parked | done
+status: active           # active | parked | done | needs-import
+priority: 2              # 1 = can't slip · 2 = important · 3 = when there's time
 next_action: "The one thing to do next. One sentence."
 due: 2026-01-01          # date of next_action, or the project's deadline. YYYY-MM-DD.
 sources: []              # calendar | gmail | shopify | notion — where to check for live facts

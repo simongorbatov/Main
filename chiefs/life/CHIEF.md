@@ -9,7 +9,7 @@ or the store.
 
 ## The one number
 
-_Not set yet — filled in during intake._
+_Not set yet — set when the projects are imported._
 
 ## Standing rules
 
@@ -24,4 +24,9 @@ _Not set yet — filled in during intake._
 
 ## Areas
 
-_Empty until intake. One project file per area in `chiefs/life/projects/`._
+- `new-house.md` — New House _(needs import)_
+- `health.md` — Health _(needs import)_
+- `money.md` — Money _(needs import)_ — every chief may read this one
+- `life-dashboard.md` — Life dashboard _(needs import; may fold into `brain/`)_
+- `calendar.md` — Calendar _(needs import; rules may move to `brain/me.md`)_
+- `workflow-planning.md` — Work flow planning _(needs import; may fold into `CLAUDE.md`)_

@@ -27,7 +27,8 @@ Open: N items (M overdue)
 Last touched: <updated>
 ```
 
-Then ask what he wants to do with it.
+Then ask what he wants to do with it. If it's `status: needs-import`, say so and offer to import it
+now (the Import flow in `.claude/commands/ceo.md`).
 
 ## Working it
 

@@ -26,4 +26,8 @@ PNW Customs (pnwcustoms.us): orders, shipping, customer messages, listings, cont
 
 ## Projects
 
-Everything under `chiefs/business/projects/`.
+- `pnw-30-day-5k.md` — the $5k month _(priority 1)_
+- `shopify.md` — Shopify _(needs import; may merge into the $5k plan)_
+- `marketing.md` — Marketing _(needs import)_
+- `coatify.md` — Coatify _(needs import)_
+- `business.md` — Business _(needs import)_

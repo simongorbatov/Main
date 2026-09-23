@@ -2,6 +2,7 @@
 chief: business
 name: PNW Customs — $5k in 30 days
 status: active
+priority: 1
 next_action: "Ship the 5 unshipped paid orders and get tracking into Shopify"
 due: 2026-09-26
 sources: [shopify, gmail, calendar]

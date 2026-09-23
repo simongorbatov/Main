@@ -15,8 +15,8 @@ Apply every PROPOSED change that passes the house rules in `CLAUDE.md`. Note rej
 
 ## 3. Flag stale projects
 
-Grep `^updated:` across `chiefs/*/projects/*.md`. Anything with `status: active` and `updated:` more
-than 14 days ago goes on the brief as: *"<project> — untouched since <date>. Still alive, or park?"*
+Grep `^updated:` across `chiefs/*/projects/*.md`. Anything with `status: active` (not `needs-import`) and
+`updated:` more than 14 days ago goes on the brief as: *"<project> — untouched since <date>. Still alive, or park?"*
 
 ## 4. Write the brief — one screen, this shape
 
@@ -41,7 +41,9 @@ STALE
 - ...
 ```
 
-Leave a section out entirely if it's empty. No preamble.
+Within every section, priority 1 before 2 before 3. Leave a section out entirely if it's empty. No
+preamble. If any projects are still `needs-import`, the last line is: *"N projects still need
+importing — run /ceo to do the next one."*
 
 ## 5. Record
 

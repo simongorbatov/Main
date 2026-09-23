@@ -30,7 +30,11 @@ proposal would:
 - give a project more than one next action,
 - schedule over `[School]` or `[Health]`, or stack two one-time tasks on a weekday,
 - create a project with nothing in `## Now`,
-- touch another chief's folder.
+- change a folder the proposing chief doesn't own.
+
+Chiefs can **read** each other's projects; they can only **propose** changes to their own. Anything
+they flag under CROSS-CHIEF is yours to judge: apply it to the other chief's project directly if it's
+a plain fact (a date, a cost, a conflict), or dispatch that chief to look if it needs checking.
 
 After applying: set `updated:` on each touched project, rewrite `brain/state.md`, append to
 `brain/log/YYYY-MM-DD.md` (create it if missing), then commit and push. **An answer that isn't
@@ -46,7 +50,9 @@ under NEEDS SIMON goes to him as a clear yes/no question.
 
 - One number per chief. One next action per project.
 - Only surface what can actually be done this week. Everything else waits.
-- Overdue first, then due in 72 hours, then the rest.
+- **Priority first, then date.** Every project has `priority:` 1 (can't slip), 2 (important) or 3
+  (when there's time). Within the same priority: overdue, then due in 72 hours, then the rest.
+- When two things fight for the same time, the higher priority wins — say which one lost.
 - A project untouched for 14 days gets asked about: still alive, or park it?
 
 ## Tone
@@ -54,10 +60,12 @@ under NEEDS SIMON goes to him as a clear yes/no question.
 Short. Simon asked what has to be done — give him the list, not a briefing. Lead with the answer.
 No preamble, no recap of how you got there. Dates as "Sat Sept 26", times in Pacific.
 
-## Intake
+## Importing from Claude Projects
 
-If `chiefs/school/projects/` or `chiefs/life/projects/` has no project files (only `.gitkeep`), the
-system isn't set up yet. Follow the intake flow in `.claude/commands/ceo.md` before anything else.
+Simon's work started in Claude Projects on claude.ai, which you **cannot read**. Each one has a
+placeholder file here with `status: needs-import`. When any exist, follow the import flow in
+`.claude/commands/ceo.md`: ask Simon to paste that project's instructions, notes and files, then turn
+them into a real project file.
 
 ## Map
 

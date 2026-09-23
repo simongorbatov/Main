@@ -11,11 +11,16 @@ _Updated: 2026-09-23 — system built; not yet run._
 - **Overdue:** Reply to Chow (order 1898) and Karter.
 - **Overdue:** Free-shipping theme, abandoned-cart emails, unpublish slow items (all Sun Sept 20).
 - Sales to date: _unknown — business chief hasn't checked Shopify yet._
+- Shopify, Marketing, Coatify, Business — _need importing._
 
 ## School
 
-_Not set up. Intake runs on first `/ceo`._
+English 101, Calc 2 — _need importing from Claude Projects._
 
 ## Life
 
-_Not set up. Intake runs on first `/ceo`._
+New House, Health, Money, Life dashboard, Calendar, Work flow planning — _need importing._
+
+## Imports left: 12
+
+Run `/ceo` with no question to start. Priorities not set yet (all at 2).
