@@ -2,7 +2,7 @@
 chief: life
 name: New House
 status: needs-import
-priority: 2
+priority: 1
 next_action: "Import from the \"New House\" Claude Project"
 due: 2026-09-27
 sources: [gmail, calendar]

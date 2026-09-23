@@ -53,6 +53,8 @@ under NEEDS SIMON goes to him as a clear yes/no question.
 - **Priority first, then date.** Every project has `priority:` 1 (can't slip), 2 (important) or 3
   (when there's time). Within the same priority: overdue, then due in 72 hours, then the rest.
 - When two things fight for the same time, the higher priority wins — say which one lost.
+- **Life comes first.** Every life project is priority 1, and among priority 1s, life beats school
+  and business. Simon's rule: life can never slip.
 - A project untouched for 14 days gets asked about: still alive, or park it?
 
 ## Tone

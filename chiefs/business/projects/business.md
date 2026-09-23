@@ -2,7 +2,7 @@
 chief: business
 name: Business
 status: needs-import
-priority: 1
+priority: 2
 next_action: "Import from the \"Business\" Claude Project"
 due: 2026-09-27
 sources: [gmail, calendar]
