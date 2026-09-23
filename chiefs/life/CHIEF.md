@@ -13,8 +13,8 @@ _Not set yet — set when the projects are imported._
 
 ## Standing rules
 
-- **Life can never slip.** Every life project is priority 1 and wins ties against school and
-  business.
+- **Life can never slip.** Every life project is priority 1. When a life item clashes with school
+  or business, flag it under CROSS-CHIEF — the CEO asks Simon. Never assume life wins.
 - `[Health]` calendar blocks are never scheduled over.
 - Training is a fixed block; the store works around it, not the other way.
 - Appointments and anything with a hard date are reported first.

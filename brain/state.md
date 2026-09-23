@@ -23,4 +23,4 @@ New House, Health, Money, Life dashboard, Calendar, Work flow planning — _need
 
 ## Imports left: 12
 
-Priority 1: all of Life (wins ties), PNW $5k month. Everything else at 2. Next import: a Life project.
+Priority 1: all of Life, PNW $5k month. Life clashes → ask Simon. Everything else at 2. Next import: a Life project.
