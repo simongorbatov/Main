@@ -23,4 +23,4 @@ New House, Health, Money, Life dashboard, Calendar, Work flow planning — _need
 
 ## Imports left: 12
 
-Run `/ceo` with no question to start. Priorities not set yet (all at 2).
+Priority 1: PNW $5k month, Business. Everything else at 2. Next import: Business.
