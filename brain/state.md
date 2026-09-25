@@ -25,7 +25,7 @@ _Updated: Thu Sept 24, 11:45 PM — 6-week lookback by all three chiefs._
 - **Tue Sept 30:** notarize USPS Form 1583 + download old Anytime Mailbox scans (they vanish that day).
 - New house furnishing (target Sept 20): unconfirmed if finished.
 - Sept 19–23 money cleanup (subscriptions, Chase autopay, accountant items): unconfirmed.
-- Fri Sept 26: garage inventory count at cost → accountant.
+- Sat Sept 26: garage inventory count at cost → accountant.
 - September training-streak goal ends Sept 30. Check the Strong app.
 
 ## Imports left: 11 (Psych 100 was added directly; no Claude Project)
