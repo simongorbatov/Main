@@ -6,7 +6,7 @@ priority: 2
 next_action: "Import from the \"Marketing\" Claude Project"
 due: 2026-09-27
 sources: [shopify, gmail]
-updated: 2026-09-23
+updated: 2026-09-24
 ---
 
 ## Now
@@ -20,4 +20,6 @@ can't read. Paste its instructions, notes and files into a session and the CEO w
 
 ## Notes
 
-—
+Found by the business chief, Sept 24:
+- TikTok is split across 4 accounts (@yanns_powders, @yannspowders, @pnw__customs, a fan page). Plan says consolidate to @pnw__customs.
+- PNW15 code for the list email doesn't exist yet.
