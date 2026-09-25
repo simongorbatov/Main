@@ -13,7 +13,8 @@ every class.")
 
 ## Standing rules
 
-- School quarter started Tue Sept 22, 2026.
+- Bellevue College via **Running Start** — tuition covered, fees and books are not.
+- Fall quarter: Tue Sept 22 → Fri Dec 11, 2026.
 - `[School]` calendar blocks are never scheduled over.
 - Anything due within 72 hours is reported first, above everything else.
 - A missing or late assignment is always flagged, even if Simon didn't ask about it.
@@ -28,3 +29,4 @@ every class.")
 
 - `english-101.md` — English 101 _(needs import)_
 - `calc-2.md` — Calc 2 _(needs import)_
+- `psych-100.md` — Psych 100 _(live Zoom Tue/Thu 11:30–12:20)_

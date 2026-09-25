@@ -6,12 +6,17 @@ Facts every chief needs. The CEO keeps this current; update it the moment someth
 
 - **Timezone:** America/Los_Angeles. All times Pacific.
 - **Runs:** PNW Customs (pnwcustoms.us) — Shopify store.
-- **School:** quarter started Tue Sept 22, 2026.
+- **School:** Running Start at Bellevue College. Fall quarter Tue Sept 22 → Fri Dec 11, 2026.
+  English 101, Psych 100, Calc II.
+- **Notion "Simon HQ"** (Tasks / Daily Habits / Goals) is his own dashboard since Aug 10.
 
 ## Fixed blocks — never schedule over these
 
-- `[School]` — class hours. _Exact hours: not known yet — ask Simon._
-- `[Health]` — training and health. _Exact days/times: likely in the Health project — fill in at import._
+- `[School]` — **Psych 100 live Zoom, Tue/Thu 11:30 AM–12:20 PM** (the only fixed class). English
+  101 and Calc II are async; he blocks Mon/Wed mornings for Calc, Tue/Thu mornings for English.
+- `[Health]` — gym mid-day on weekdays, 7-day split (see `chiefs/life/projects/health.md`).
+  Morning walk ~7:55 AM.
+- Wind-down: phone out of the room by 10:30 PM.
 - Store work goes after school and before training on weekdays, 10:00 on weekends.
 
 ## Calendar labels
@@ -26,7 +31,4 @@ Facts every chief needs. The CEO keeps this current; update it the moment someth
 
 ## Unknowns — ask when relevant
 
-- Class list and teachers
-- School day start/end
-- Training schedule
 - Anything else that is fixed every week

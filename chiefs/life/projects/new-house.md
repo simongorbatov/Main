@@ -6,7 +6,7 @@ priority: 1
 next_action: "Import from the \"New House\" Claude Project"
 due: 2026-09-27
 sources: [gmail, calendar]
-updated: 2026-09-23
+updated: 2026-09-24
 ---
 
 ## Now
@@ -21,3 +21,8 @@ can't read. Paste its instructions, notes and files into a session and the CEO w
 ## Notes
 
 Cross-check against money.md for costs.
+
+Found by the chiefs, Sept 24 lookback (Calendar / Gmail / Notion):
+- Furnish-the-house project Sept 8 → target done Sept 20: room list (Sept 11), truck run + bed and desk (Sept 12), unboxed deliveries (Sept 15), more truck/assembly (Sept 19).
+- Nothing marks it finished — ask Simon.
+- Helped mom move Sept 8–10.
