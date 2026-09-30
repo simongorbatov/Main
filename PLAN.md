@@ -1,38 +1,23 @@
-# PNW Customs: $5k in 30 days
+# PNW Customs: Sept 30 reset
 
-**Where you are:** store did $5k in May and June. Sept is on pace for ~$2k with zero effort. 5 paid orders unshipped. 70 Notion tasks, none finished.
+**What happened since Sept 19:** 1 order ($60). $1,200 refunded. 21 visitors this week.
+#1073 ($1,013) still unshipped after 102 days. #1097 ($60) after 12. "Box the orders" slipped 3 times.
 
-**One number:** $5,000 in sales, Sept 22 to Oct 21.
-**One rule:** only sell what ships in 3 days.
+**The plan is not the problem. Shipping is.** Nothing else matters until paid orders leave the house.
 
-## Daily, 40 min
-1. Ship paid orders, answer every message (20 min)
-2. One TikTok post (15 min)
-3. Write tomorrow's one task here (5 min)
+## Today, 30 min
+- Ship #1073 and #1097. Can't ship today = refund today.
 
-## Week 1 (Fri/Sat, before school)
-- Ship the 5 orders: #1073, #1093, #1094, #1095, #1096
-- Reply to Chow (order 1898) and Karter. Ship date or refund, today.
-- Publish the free-shipping theme ($75 threshold)
-- Turn on abandoned-cart emails
-- Unpublish anything you can't ship in 3 days
+## This week
+- Close the old YannsPowders store. You pay $74/mo for orders you can't ship.
+- Before closing: refund #1927 (Emily), answer Andrea, cancel the 7 Socal Builds orders.
 
-## Week 2
-- One email to the 1,056 list. Code PNW15, expires in 7 days.
-- One TikTok account. Point the other bios at it.
-- Text 20 happy buyers: post your build, tag us.
+## One rule until it holds 7 days straight
+Ship what's paid. Answer what's asked. That's the whole job.
+TikTok and email are paused. They come back after 7 clean days.
 
-## Week 3
-- Two bundles from stock: LBX Brake Kit, Cockpit Kit
-- Fix the wheelset page (photos, fitment, "ships in 2 days")
-- Call Ian. Refund him, give him a new code.
+## Need cash now
+Post the clearance the calendar already planned. This weekend. Wheelsets and controllers first.
 
-## Week 4
-- Count it. $5k = same routine, aim $10k next month.
-- Coating only if the booth is running.
-
-## Ignore until Nov 1
-Everything else in Notion.
-
-## Tomorrow's one task
--
+## Still true
+$5k month = same routine, done daily. The old plan is in git history when you're ready for it.
