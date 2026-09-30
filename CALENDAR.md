@@ -1,36 +1,51 @@
 # PNW Customs plan → calendar
 
 Owner: Simon. Timezone: America/Los_Angeles. Label every event `[Store]`.
-Goal: $5,000 in sales, Sept 22 – Oct 21. Rule: only sell what ships in 3 days.
-School quarter starts Tue Sept 22. Never schedule over [School] or [Health] blocks.
+Goal: $4,000 combined (details + installs + parts), Sept 22 – Oct 21. Rule: nothing promised that isn't in hand or on the calendar.
+Fall quarter started Tue Sept 22 at Bellevue College. Class blocks are not in this file yet: the Sunday 19:45 "Give Claude your class schedule" block adds them. Never schedule over [School] or [Health] blocks.
 
 ## Scheduler rules
-- Max one one-time [Store] task per weekday. Weekends: under 3 hours total.
+- Weekdays: one [Store] block, up to 2.5 h, after the last class and before 16:00 training. One one-time task per weekday, max.
+- Saturday: up to 6 h (two details at 3 h each). Sunday: under 3 h, plus the existing 19:00 planning block.
 - A slipped task moves to the next day. Never stack two.
-- Notion is parked until Nov 1. This file is the only source.
+- Notion is parked until Nov 1. This file and PLAN.md are the only sources.
 
-## Daily block, repeats Sept 20 → Oct 21
-- [Store] Ship + answer — 20 min — weekdays after school and before training; weekends 10:00
-- [Store] One TikTok post — 15 min — right after
-- [Store] Tomorrow's one task — 5 min — 21:00
+## Daily block, repeats Sept 22 → Oct 21
+- [Store] Orders + messages — 20 min — start of the block
+- [Store] The day's one task — rest of the block (table below)
+- [Store] Tomorrow's one task — 5 min — inside the 21:00 "Evening reconcile" block that already exists
 
 ## One-time tasks
 | Date | Min | Task | Done = |
 |---|---|---|---|
-| Sat Sept 19 | 120 | Ship #1073, #1093, #1094, #1095, #1096. Tracking into Shopify. | 0 paid orders unshipped |
-| Sat Sept 19 | 30 | Reply to Chow (order 1898) and Karter: ship date or refund. | both answered |
-| Sun Sept 20 | 45 | Publish free-shipping theme ($75). Announcement bar: "In-stock parts ship in 2 business days." | live on pnwcustoms.us |
-| Sun Sept 20 | 15 | Shopify → Checkout → abandoned checkout emails ON (1h + 24h). | toggled |
-| Sun Sept 20 | 60 | Unpublish anything that can't ship in 3 days (Collective imports with errors, the 3 refund machines). | done |
-| Sat Sept 26 | 60 | Email the 1,056 list: "parts that ship in 2 days," code PNW15, expires Oct 3. | sent |
-| Sat Sept 26 | 30 | One TikTok account (@pnw__customs). Point the other bios at it. | 1 account |
-| Sun Sept 27 | 45 | Text 20 buyers who received parts: post your build, tag us. | 20 sent |
-| Sun Sept 27 | 5 | Scorecard: 0 orders unshipped over 3 days? | yes/no |
-| Fri Oct 2 | 20 | Last-call email: code dies tonight. | sent |
-| Sat Oct 3 | 90 | Build two bundles from stock: LBX Brake Kit, Cockpit Kit. | both live |
-| Sun Oct 4 | 60 | Fix wheelset page: photos, fitment, "ships in 2 days." | live |
-| Sun Oct 4 | 5 | Scorecard: 5+ PNW15 orders, 7/7 posts? | yes/no |
-| Sat Oct 10 | 30 | Call Ian. Refund the double charge, give him a new code. | called |
-| Sun Oct 11 | 5 | Scorecard: $2,500+ so far? | yes/no |
-| Sat Oct 17 | 30 | Only if the booth is running: open coating deposits. Else skip. | decided |
-| Wed Oct 21 | 30 | Count the month. $5k+ → same routine, aim $10k in Nov. | number written down |
+| Tue Sept 22 | 30 | Refund Chow (order 1898) in Shopify. Send the Chow + Joan drafts from Gmail Drafts. | both sent |
+| Wed Sept 23 | 120 | Ship #1095 + #1097. Wheelsets #1093 / #1096: ship or send the dated draft. #1094: send the draft offering Shoreline drop-off + free mount. Tracking into Shopify. | 0 orders without shipment or dated email |
+| Wed Sept 23 | 5 | Card: find the 0% APR end date, write it in PLAN.md. | date written |
+| Thu Sept 24 | 45 | Book 2 details for Sat/Sun: text 10 people (past customers, friends' parents), 1 Nextdoor post with SERVICES.md prices. | 2 booked |
+| Fri Sept 25 | 60 | Shopify: unpublish all Collective imports. Disconnect Rippin Moto, MXwraps, Nexora. Announcement bar: "In-stock parts ship in 2 business days." | everything live ships in 2 days |
+| Sat Sept 26 | 360 | Detail #1 (9:00) + #2 (13:00). Film 20 sec of each. | $ in hand |
+| Sun Sept 27 | 60 | Post SERVICES.md (IG/TikTok) + text it to 10 local past customers. Then Sunday planning. | posted + 10 texts |
+| Mon Sept 28 | 60 | Send the shop intro to the 7 shops in SHOPS.md. Book 3 details. | 7 sent, 3 booked |
+| Tue Sept 29 | 60 | Ship day. | 0 unshipped |
+| Wed Sept 30 | 120 | First install job (Jackson's wheelset if yes, else first reply to the post). | $ collected |
+| Thu Oct 1 | 45 | Message 3 Marketplace Sur-Ron / Talaria sellers: asking price, condition, why selling. No buying. | 3 messaged |
+| Fri Oct 2 | 15 | Scoreboard row. Confirm weekend bookings. | row filled |
+| Sat Oct 3 | 360 | 2 details. | $ in hand |
+| Sun Oct 4 | 5 | Scorecard: 4+ details done since Sept 26? | Y / N |
+| Mon Oct 5 | 60 | Email the 1,056 list: installs + tune-ups local, parts ship in 2 days, PNW15 expires Oct 12. Book 3 details. | sent, 3 booked |
+| Tue Oct 6 | 60 | Ship day. | 0 unshipped |
+| Wed Oct 7 | 120 | Install job. | $ collected |
+| Thu Oct 8 | 60 | Photograph + list 5 in-stock parts (or install job if booked). | 5 listed or $ collected |
+| Fri Oct 9 | 15 | Scoreboard row. | row filled |
+| Sat Oct 10 | 360 | 2 details. | $ in hand |
+| Sun Oct 11 | 5 | Scorecard: $1,500+ so far? | Y / N |
+| Mon Oct 12 | 30 | Flip decision: 6+ details, 3+ installs, $1.5k free? Yes → pick one bike. No → not yet. Book 3 details. | decision in PLAN.md |
+| Tue Oct 13 | 60 | Ship day. Funn reorder if 5+ stems sold. | 0 unshipped, reorder Y / N |
+| Wed Oct 14 | 120 | Install job. | $ collected |
+| Thu Oct 15 | 120 | Buy the bike (if yes), or install job. | done |
+| Fri Oct 16 | 15 | Scoreboard row. | row filled |
+| Sat Oct 17 | 360 | 2 details. | $ in hand |
+| Sun Oct 18 | 120 | Flip work, or rest. | |
+| Mon Oct 19 | 60 | Book 3 details. | 3 booked |
+| Tue Oct 20 | 60 | Ship day. | 0 unshipped |
+| Wed Oct 21 | 30 | Count the month. $4k+ → same routine, aim $6k in Nov. | number in PLAN.md |
