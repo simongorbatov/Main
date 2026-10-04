@@ -44,3 +44,19 @@ npm test
 | `MOCK` | var | `"1"` forces test mode. |
 
 Secrets are set with `wrangler secret put <NAME>` or in the Cloudflare dashboard, never in this repo.
+
+## Step 3: go live (next session)
+
+Needs these in the cloud environment's settings: `DEAL_LENS_ANTHROPIC_KEY`, `CLOUDFLARE_API_TOKEN`
+and `CLOUDFLARE_ACCOUNT_ID`, plus network access to `api.cloudflare.com` and `workers.dev`.
+This container can reach `api.anthropic.com` already; Node's fetch needs `NODE_USE_ENV_PROXY=1`
+to use the proxy.
+
+1. From `worker/`, run `npx wrangler d1 create deal-lens`. Paste the id into `wrangler.toml`,
+   uncomment the D1 block, then run `npx wrangler d1 migrations apply deal-lens --remote`.
+2. Set the secrets: pipe `DEAL_LENS_ANTHROPIC_KEY` into `npx wrangler secret put ANTHROPIC_API_KEY`,
+   then set `ACCESS_CODE` the same way.
+3. Run `npx wrangler deploy` and point `extension/config.js` at the workers.dev URL.
+4. Run 5 real checks (the fixture listings work as inputs) and report the cost per check from
+   `meta.estCostUsd`. That settles Opus 5.5 vs Sonnet 5.5 (the `MODEL` var).
+5. Zip `extension/` and send it to Simon along with the access code.
