@@ -26,12 +26,12 @@
       ],
       "created": "2026-09-30",
       "due": "2026-09-30",
-      "nags": 0,
-      "lastNag": null,
+      "nags": 1,
+      "lastNag": "2026-10-04",
       "excuses": [],
-      "notes": "'Box the orders' had already slipped 3 times before the Sept 30 reset. #1073 was placed Jun 20 (102 days unshipped on Sept 30); #1097 12 days. Shopify is the authority: check PAID + UNFULFILLED before getting mad.",
+      "notes": "'Box the orders' had already slipped 3 times before the Sept 30 reset. #1073 was placed Jun 20 (102 days unshipped on Sept 30); #1097 12 days. Shopify is the authority: check PAID + UNFULFILLED before getting mad. | 2026-10-04: Shopify, Oct 4: #1097 is REFUNDED (that half is done). #1073 is still PAID + UNFULFILLED, $1,012.89, placed Jun 20 = 106 days. Not shipped, not refunded.",
       "source": "PLAN.md + CALENDAR.md (Sept 30 reset)",
-      "updated": "2026-10-04T19:57:46.783Z"
+      "updated": "2026-10-04T20:04:44.366Z"
     },
     {
       "id": "refund-1927-answer-andrea",
@@ -49,17 +49,17 @@
       ],
       "created": "2026-09-30",
       "due": "2026-10-01",
-      "nags": 0,
-      "lastNag": null,
+      "nags": 1,
+      "lastNag": "2026-10-04",
       "excuses": [],
       "notes": "",
       "source": "CALENDAR.md (Sept 30 reset)",
-      "updated": "2026-10-04T19:57:46.841Z"
+      "updated": "2026-10-04T20:04:44.420Z"
     },
     {
       "id": "cancel-socal-builds-orders",
       "title": "Cancel the 7 Socal Builds Collective orders",
-      "status": "open",
+      "status": "done",
       "plan": "CALENDAR.md: Fri Oct 2, 20 min. Done = 0 open partner orders.",
       "keywords": [
         "socal",
@@ -76,7 +76,9 @@
       "excuses": [],
       "notes": "",
       "source": "CALENDAR.md (Sept 30 reset)",
-      "updated": "2026-10-04T19:57:46.889Z"
+      "updated": "2026-10-04T20:04:44.310Z",
+      "closedOn": "2026-10-04",
+      "doneNote": "Shopify, Oct 4: zero open unfulfilled partner orders; the only open unfulfilled order is #1093 (Tai Lam, partially refunded)"
     },
     {
       "id": "post-clearance",
@@ -96,12 +98,12 @@
       ],
       "created": "2026-09-30",
       "due": "2026-10-03",
-      "nags": 0,
-      "lastNag": null,
+      "nags": 1,
+      "lastNag": "2026-10-04",
       "excuses": [],
       "notes": "",
       "source": "PLAN.md + CALENDAR.md (Sept 30 reset)",
-      "updated": "2026-10-04T19:57:46.935Z"
+      "updated": "2026-10-04T20:04:44.500Z"
     },
     {
       "id": "close-yannspowders-store",

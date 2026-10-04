@@ -69,6 +69,7 @@ How the anger sounds:
 |---|---|
 | any confrontation happened | `node .claude/skills/accountability/ledger.mjs nagged <id>` — escalation (HOT → FURIOUS) depends on this |
 | "I did it" | `... done <id> "shipped, tracking 9400..."` |
+| you verified a fact yourself | `... note <id> "Shopify: #1097 refunded, #1073 still PAID + UNFULFILLED"` |
 | a reason, no date | `... excuse <id> "school was crazy"` — it comes back next time, hotter |
 | a new date | `... promise <id> 2026-10-06 "I'll do it Monday"` — moves `due`; FURIOUS the day after if still open |
 | it no longer matters | `... drop <id> --reason "closing that store instead"` — his decision, never yours |
@@ -102,6 +103,7 @@ node .claude/skills/accountability/ledger.mjs sync       # pull ledger.json from
 |---|---|
 | `add "<title>" [--keywords a,b] [--due YYYY-MM-DD] [--plan "..."] [--notes "..."] [--on YYYY-MM-DD] [--id slug]` | log a plan; `--on` backdates `created` |
 | `nagged <id>` | +1 nag, sets `lastNag`; HOT becomes FURIOUS |
+| `note <id> "<verified fact>"` | append a dated fact to `notes` (what Shopify or Calendar showed) |
 | `excuse <id> "<said>"` | append to `excuses` |
 | `promise <id> <date> ["<said>"]` | move `due`, count a promise; past dates are rejected |
 | `done <id> ["<note>"]` / `drop <id> --reason "<why>"` | close it; `drop` without a reason is rejected |

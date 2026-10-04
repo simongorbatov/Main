@@ -12,6 +12,7 @@
 //   show <id>                                              one entry as JSON
 //   check [--prompt "<text>"]                              what the hook would say, as a human-readable report
 //   nagged <id>                                            record that you confronted him about <id>
+//   note <id> "<verified fact>"                           append a dated fact you verified (Shopify, Calendar) to notes
 //   excuse <id> "<what they said>"                         record the reason given for not doing it
 //   promise <id> <YYYY-MM-DD> ["<what they said>"]         a new date was promised: moves `due`, counts as a promise
 //   done <id> ["<note>"]                                   it is done
@@ -268,6 +269,13 @@ const commands = {
     const db = load(); const e = find(db, pos[0]);
     e.nags = (Number(e.nags) || 0) + 1; e.lastNag = todayIn(db.config.timezone); touch(e); save(db);
     process.stdout.write(`${e.id}: nagged ${e.nags}x (last ${e.lastNag}).\n`);
+  },
+  note({ pos }) {
+    if (!pos[1]) fail('usage: note <id> "<verified fact>"');
+    const db = load(); const e = find(db, pos[0]);
+    const stamp = `${todayIn(db.config.timezone)}: ${pos[1]}`;
+    e.notes = e.notes ? `${e.notes} | ${stamp}` : stamp; touch(e); save(db);
+    process.stdout.write(`${e.id}: note added.\n`);
   },
   excuse({ pos }) {
     if (!pos[1]) fail('usage: excuse <id> "<what they said>"');
