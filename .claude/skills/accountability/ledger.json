@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "config": {
+    "owner": "Simon",
+    "timezone": "America/Los_Angeles",
+    "nagAfterDays": 7
+  },
+  "entries": [
+    {
+      "id": "ship-1073-1097",
+      "title": "Ship #1073 and #1097 — can't ship today = refund today",
+      "status": "open",
+      "plan": "PLAN.md Sept 30 reset, 'Today, 30 min': ship #1073 ($1,013) and #1097 ($60). Can't ship today = refund today.",
+      "keywords": [
+        "ship",
+        "shipping",
+        "shipped",
+        "unshipped",
+        "1073",
+        "1097",
+        "box the orders",
+        "refund",
+        "paid orders",
+        "fulfil",
+        "fulfill"
+      ],
+      "created": "2026-09-30",
+      "due": "2026-09-30",
+      "nags": 0,
+      "lastNag": null,
+      "excuses": [],
+      "notes": "'Box the orders' had already slipped 3 times before the Sept 30 reset. #1073 was placed Jun 20 (102 days unshipped on Sept 30); #1097 12 days. Shopify is the authority: check PAID + UNFULFILLED before getting mad.",
+      "source": "PLAN.md + CALENDAR.md (Sept 30 reset)",
+      "updated": "2026-10-04T19:57:46.783Z"
+    },
+    {
+      "id": "refund-1927-answer-andrea",
+      "title": "Refund #1927 (Emily) and answer Andrea in Shopify Inbox",
+      "status": "open",
+      "plan": "CALENDAR.md: Thu Oct 1, 20 min. Done = both closed.",
+      "keywords": [
+        "1927",
+        "emily",
+        "andrea",
+        "refund",
+        "inbox",
+        "unanswered",
+        "answer what's asked"
+      ],
+      "created": "2026-09-30",
+      "due": "2026-10-01",
+      "nags": 0,
+      "lastNag": null,
+      "excuses": [],
+      "notes": "",
+      "source": "CALENDAR.md (Sept 30 reset)",
+      "updated": "2026-10-04T19:57:46.841Z"
+    },
+    {
+      "id": "cancel-socal-builds-orders",
+      "title": "Cancel the 7 Socal Builds Collective orders",
+      "status": "open",
+      "plan": "CALENDAR.md: Fri Oct 2, 20 min. Done = 0 open partner orders.",
+      "keywords": [
+        "socal",
+        "socal builds",
+        "collective",
+        "partner orders",
+        "cancel orders",
+        "orphaned"
+      ],
+      "created": "2026-09-30",
+      "due": "2026-10-02",
+      "nags": 0,
+      "lastNag": null,
+      "excuses": [],
+      "notes": "",
+      "source": "CALENDAR.md (Sept 30 reset)",
+      "updated": "2026-10-04T19:57:46.889Z"
+    },
+    {
+      "id": "post-clearance",
+      "title": "Post the clearance: wheelsets and controllers first, local pickup OK",
+      "status": "open",
+      "plan": "PLAN.md 'Need cash now': post the clearance this weekend. CALENDAR.md: Sat Oct 3, 90 min. Done = listing live.",
+      "keywords": [
+        "clearance",
+        "wheelsets",
+        "wheelset",
+        "controllers",
+        "controller",
+        "listing",
+        "sale",
+        "cash now",
+        "local pickup"
+      ],
+      "created": "2026-09-30",
+      "due": "2026-10-03",
+      "nags": 0,
+      "lastNag": null,
+      "excuses": [],
+      "notes": "",
+      "source": "PLAN.md + CALENDAR.md (Sept 30 reset)",
+      "updated": "2026-10-04T19:57:46.935Z"
+    },
+    {
+      "id": "close-yannspowders-store",
+      "title": "Close the YannsPowders Shopify store ($74/mo)",
+      "status": "open",
+      "plan": "PLAN.md 'This week': close the old YannsPowders store, you pay $74/mo for orders you can't ship. Before closing: refund #1927, answer Andrea, cancel the 7 Socal Builds orders. CALENDAR.md: Sun Oct 4, 30 min. Done = store paused.",
+      "keywords": [
+        "yannspowders",
+        "yanns",
+        "yann",
+        "close the store",
+        "close store",
+        "74",
+        "second store"
+      ],
+      "created": "2026-09-30",
+      "due": "2026-10-04",
+      "nags": 0,
+      "lastNag": null,
+      "excuses": [],
+      "notes": "Depends on refund-1927-answer-andrea and cancel-socal-builds-orders being done first.",
+      "source": "PLAN.md + CALENDAR.md (Sept 30 reset)",
+      "updated": "2026-10-04T19:57:46.984Z"
+    },
+    {
+      "id": "scorecard-oct-7",
+      "title": "Scorecard: 7 straight days of 0 unshipped? Yes = TikTok returns Oct 8",
+      "status": "open",
+      "plan": "PLAN.md 'One rule until it holds 7 days straight': ship what's paid, answer what's asked. TikTok and email stay paused until 7 clean days. CALENDAR.md: Wed Oct 7, 5 min, yes/no.",
+      "keywords": [
+        "scorecard",
+        "7 clean days",
+        "7 days",
+        "streak",
+        "tiktok",
+        "tik tok",
+        "email list",
+        "paused",
+        "comes back"
+      ],
+      "created": "2026-09-30",
+      "due": "2026-10-07",
+      "nags": 0,
+      "lastNag": null,
+      "excuses": [],
+      "notes": "",
+      "source": "PLAN.md + CALENDAR.md (Sept 30 reset)",
+      "updated": "2026-10-04T19:57:47.038Z"
+    }
+  ]
+}
