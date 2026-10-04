@@ -5,7 +5,8 @@
 ## What changed
 - **#1073 ($1,013) and #1062 ($163) were chargebacks, and we lost both.** The banks already gave those customers their money back. Do not ship them and do not refund them, or you pay twice. Nothing is owed on either order.
 - **#1097 is refunded.** Done.
-- **#1093 (Tai Lam, Ultra Bee supermoto wheelset, $550 net) is paid and unshipped since Sept 1.** 4 are in stock. Ship it before the clearance sells them.
+- **#1093 (Tai Lam, Ultra Bee supermoto wheelset, $550 net) is backordered.** He agreed by email to wait; $100 goodwill refund already sent. Order note added as a record. Ship with tracking the day the Ultra Bee sumos land, and send him a progress update.
+- **Real stock is zero.** Shopify said ~1,700 units across 113 live products. Own-brand items (wheelsets, brake kits, sprockets, Warp Drive, foot pegs) are now set to 0 and show as sold out. Incoming: 8 LBX/E-Ride sumos (4 black, 4 chrome) in about a week, plus Ultra Bee sumos.
 - **Charged Cycleworks is off the store.** All 78 CCW products are drafts. Over 6 months, $3,170 of their $5,374 in sales was refunded (59%).
 
 ## Why payouts are stuck
@@ -23,7 +24,8 @@ Look for a banner (hold / reserve / action needed) and the current balance.
 Ship what's paid. Answer what's asked. **Never let a paid order sit.** A customer who waits files a chargeback, and chargebacks are what freeze the money.
 
 ## This week
-- Ship #1093 with tracking.
+- When stock lands: set LBX sumo to 8 (4 black/4 chrome), ship #1093 first, then sell the rest.
+- Decide which vendors can really drop-ship; hide the rest.
 - Refund #1927 (Emily), answer Andrea, cancel the 7 Socal Builds orders.
 - Close YannsPowders only after its balance is 0 and no disputes are open. Closing doesn't erase what's owed.
-- Post the clearance: wheelsets (LBX/E-Ride, 14 in stock) and controllers.
+- Pre-sell the 8 LBX sumos in Sur-Ron/E-Ride groups now (deposit or local pickup on arrival), not through Shopify until they're in hand.
