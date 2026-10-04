@@ -6,7 +6,7 @@
 - **#1073 ($1,013) and #1062 ($163) were chargebacks, and we lost both.** The banks already gave those customers their money back. Do not ship them and do not refund them, or you pay twice. Nothing is owed on either order.
 - **#1097 is refunded.** Done.
 - **#1093 (Tai Lam, Ultra Bee supermoto wheelset, $550 net) is paid and unshipped since Sept 1.** 4 are in stock. Ship it before the clearance sells them.
-- **Charged Cycleworks is off the store.** All 78 CCW products are drafts. They caused $3,170 of the $5,374 refunded over 6 months.
+- **Charged Cycleworks is off the store.** All 78 CCW products are drafts. Over 6 months, $3,170 of their $5,374 in sales was refunded (59%).
 
 ## Why payouts are stuck
 Chargebacks and refunds. 3 chargebacks lost on PNW Customs (#1027, #1062, #1073). That's about 15% of orders in the last 90 days, and Shopify acts at 1–2%.
