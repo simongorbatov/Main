@@ -25,7 +25,7 @@ Ship what's paid. Answer what's asked. **Never let a paid order sit.** A custome
 
 ## This week
 - When stock lands: set LBX sumo to 8 (4 black/4 chrome), ship #1093 first, then sell the rest.
-- Decide which vendors can really drop-ship; hide the rest.
+- Drop-ship lines kept live (Oct 4): axbolts, Warp 9, Mxp_designs, Pinned Electric, Guts (ships in 7 days), Funn. MXwraps and EBMX hidden. Every drop-ship order: place it with the vendor the same day, add tracking the moment you get it. Put the real ship time on each product page so nobody files "item not received".
 - Refund #1927 (Emily), answer Andrea, cancel the 7 Socal Builds orders.
 - Close YannsPowders only after its balance is 0 and no disputes are open. Closing doesn't erase what's owed.
 - Pre-sell the 8 LBX sumos in Sur-Ron/E-Ride groups now (deposit or local pickup on arrival), not through Shopify until they're in hand.
