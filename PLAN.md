@@ -1,23 +1,29 @@
-# PNW Customs: Sept 30 reset
+# PNW Customs: Oct 4 update
 
-**What happened since Sept 19:** 1 order ($60). $1,200 refunded. 21 visitors this week.
-#1073 ($1,013) still unshipped after 102 days. #1097 ($60) after 12. "Box the orders" slipped 3 times.
+**Store audit, Oct 4.** Replaces the Sept 30 reset (still in git history).
 
-**The plan is not the problem. Shipping is.** Nothing else matters until paid orders leave the house.
+## What changed
+- **#1073 ($1,013) and #1062 ($163) were chargebacks, and we lost both.** The banks already gave those customers their money back. Do not ship them and do not refund them, or you pay twice. Nothing is owed on either order.
+- **#1097 is refunded.** Done.
+- **#1093 (Tai Lam, Ultra Bee supermoto wheelset, $550 net) is paid and unshipped since Sept 1.** 4 are in stock. Ship it before the clearance sells them.
+- **Charged Cycleworks is off the store.** All 78 CCW products are drafts. They caused $3,170 of the $5,374 refunded over 6 months.
 
-## Today, 30 min
-- Ship #1073 and #1097. Can't ship today = refund today.
+## Why payouts are stuck
+Chargebacks and refunds. 3 chargebacks lost on PNW Customs (#1027, #1062, #1073). That's about 15% of orders in the last 90 days, and Shopify acts at 1–2%.
+YannsPowders was already put in Shopify's dispute program (NDRP) in April for going over 2%, and its payouts have been negative: Shopify pulled refunds back out of the bank.
+From order data, PNW's Shopify Payments balance for Jul–Sep is roughly -$685: $2,977 charged, minus $2,364 refunded, $1,206 in chargebacks plus fees, and $91 in processing fees. So new sales pay off the hole before anything pays out.
+
+**To check (5 min, admin only):** Settings → Payments → View payouts.
+Look for a banner (hold / reserve / action needed) and the current balance.
+- Action needed (ID, bank, documents) → submit it today. That's the fastest unlock.
+- Reserve → it's released on Shopify's schedule. Keep chargebacks at 0 and ask support for a review after 30 clean days.
+- Negative balance → it clears as you sell, or Shopify debits the bank.
+
+## One rule
+Ship what's paid. Answer what's asked. **Never let a paid order sit.** A customer who waits files a chargeback, and chargebacks are what freeze the money.
 
 ## This week
-- Close the old YannsPowders store. You pay $74/mo for orders you can't ship.
-- Before closing: refund #1927 (Emily), answer Andrea, cancel the 7 Socal Builds orders.
-
-## One rule until it holds 7 days straight
-Ship what's paid. Answer what's asked. That's the whole job.
-TikTok and email are paused. They come back after 7 clean days.
-
-## Need cash now
-Post the clearance the calendar already planned. This weekend. Wheelsets and controllers first.
-
-## Still true
-$5k month = same routine, done daily. The old plan is in git history when you're ready for it.
+- Ship #1093 with tracking.
+- Refund #1927 (Emily), answer Andrea, cancel the 7 Socal Builds orders.
+- Close YannsPowders only after its balance is 0 and no disputes are open. Closing doesn't erase what's owed.
+- Post the clearance: wheelsets (LBX/E-Ride, 14 in stock) and controllers.
