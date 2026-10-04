@@ -1,0 +1,17 @@
+name = "deal-lens"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+MODEL = "claude-opus-5-5"
+DAILY_LIMIT_PER_INSTALL = "20"
+
+# Secrets, never vars: ANTHROPIC_API_KEY and ACCESS_CODE (`wrangler secret put <NAME>`).
+# Daily-limit counter. Create it in step 3 (`wrangler d1 create deal-lens`), paste its id,
+# then apply migrations/ (`wrangler d1 migrations apply deal-lens --remote`):
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "deal-lens"
+# database_id = ""
+# migrations_dir = "migrations"

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deal Lens</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Deal Lens</h1>
+    <button id="check" type="button">Check this deal</button>
+  </header>
+  <p id="status" class="status" role="status" aria-live="polite">Open a listing, then click the Deal Lens icon in your toolbar.</p>
+
+  <section id="consent" class="card" hidden>
+    <h2>Before your first check</h2>
+    <p>When you ask for a check, Deal Lens sends the listing you're viewing to its server: the page text, links to up to four photos, and a screenshot of the page. An AI reads them and returns a verdict.</p>
+    <p>Nothing is sent until you click. Deal Lens doesn't store, sell, or advertise with what it reads.</p>
+    <button id="agree" type="button">I agree</button>
+  </section>
+
+  <section id="access" class="card" hidden>
+    <h2>Access code</h2>
+    <p>Deal Lens is in private testing. Paste the access code you were given.</p>
+    <form id="access-form">
+      <label for="access-input">Access code</label>
+      <input id="access-input" type="password" autocomplete="off" spellcheck="false">
+      <button type="submit">Save and check</button>
+    </form>
+  </section>
+
+  <section id="result" aria-live="polite" hidden></section>
+
+  <footer class="foot">Prices are estimates, not appraisals.</footer>
+  <script type="module" src="sidepanel.js"></script>
+</body>
+</html>
