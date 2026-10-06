@@ -2,7 +2,15 @@
 
 **Store audit, Oct 4.** Replaces the Sept 30 reset (still in git history).
 
-## What changed
+## Oct 6 re-audit
+- 0 orders since Sept 18. Only open paid order: #1093 (backorder, noted). No new disputes.
+- **11 sessions reached checkout Oct 2–5, 0 completed.** One CA buyer tried the Ultrabee brake kit ($200) 5× on Sept 27 and again Oct 3. Repeated tries = payment likely failing. Run a real test checkout now; if cards fail, Shopify Payments may be restricted (check the payouts page).
+- "SAME DAY SHIPPING" still on the axbolts LBX + Ultra Bee titanium kits, and "next day shipping" in an Mxp pegs title. Drop-ship = only keep if the vendor guarantees it.
+- Drop-ship stock counts move on their own (supplier sync via Shopify Collective), so those listings track supplier stock.
+- YannsPowders: Shopify Collective says 4 suppliers have product errors and RegenRides is no longer eligible. Check pending RegenRides orders/payments before closing.
+- Cowork results for Emily / Andrea / Socal / payouts not visible from here.
+
+## What changed (Oct 4)
 - **#1073 ($1,013) and #1062 ($163) were chargebacks, and we lost both.** The banks already gave those customers their money back. Do not ship them and do not refund them, or you pay twice. Nothing is owed on either order.
 - **#1097 is refunded.** Done.
 - **#1093 (Tai Lam, Ultra Bee supermoto wheelset, $550 net) is backordered.** He agreed by email to wait; $100 goodwill refund already sent. Order note added as a record. Ship with tracking the day the Ultra Bee sumos land, and send him a progress update.
