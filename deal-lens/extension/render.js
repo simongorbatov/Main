@@ -39,12 +39,12 @@ function list(title, items, emptyText) {
 
 function vinSection(vin) {
   const decoded = [vin.year, vin.make, vin.model, vin.trim].filter(Boolean).join(" ");
-  const section = el(
-    "section",
-    { className: "vin" },
-    el("h3", {}, "VIN check"),
-    el("p", {}, decoded ? `${vin.vin} decodes to ${decoded}.` : `${vin.vin} couldn't be decoded.`),
-  );
+  const line = decoded
+    ? `${vin.vin} decodes to ${decoded}.`
+    : vin.note
+      ? `Found VIN ${vin.vin}.`
+      : `${vin.vin} couldn't be decoded.`;
+  const section = el("section", { className: "vin" }, el("h3", {}, "VIN check"), el("p", {}, line));
   if (vin.note) section.append(el("p", { className: "muted" }, vin.note));
   if (vin.recallsUrl) {
     section.append(el("a", { href: vin.recallsUrl, target: "_blank", rel: "noopener" }, "Look up open recalls (NHTSA)"));
@@ -52,10 +52,43 @@ function vinSection(vin) {
   return section;
 }
 
+// What the page reader pulled from the page, so a wrong title, price or photo is easy to spot.
+function readout(listing, open) {
+  const description =
+    listing.description.length > 160 ? `${listing.description.slice(0, 160)}…` : listing.description;
+  const rows = [
+    ["Site", listing.site],
+    ["Title", listing.title],
+    ["Price", listing.price],
+    ["Location", listing.location],
+    ["VIN", listing.vin],
+    ["Details", listing.details.slice(0, 6).join(" · ")],
+    ["Description", description],
+  ].filter(([, value]) => value);
+  const details = el(
+    "details",
+    open ? { className: "readout", open: "" } : { className: "readout" },
+    el("summary", {}, "What Deal Lens read from this page"),
+    el("dl", {}, ...rows.flatMap(([name, value]) => [el("dt", {}, name), el("dd", {}, value)])),
+  );
+  const count = listing.photos.length;
+  details.append(el("p", { className: "muted" }, count ? `${count} photo${count === 1 ? "" : "s"} found:` : "No photos found."));
+  if (count) {
+    details.append(
+      el("div", { className: "thumbs" }, ...listing.photos.map((src) => el("img", { src, alt: "", referrerpolicy: "no-referrer" }))),
+    );
+  }
+  return details;
+}
+
 export function renderVerdict(root, verdict, listing) {
   const [label, tone] = VERDICTS[verdict.verdict] || VERDICTS.not_enough_info;
   const card = el("div", { className: "card" });
-  if (verdict.meta?.mock) {
+  if (verdict.meta?.demo) {
+    card.append(
+      el("p", { className: "note" }, "Demo mode. Nothing left your browser and no AI looked at this listing; the price range is a placeholder."),
+    );
+  } else if (verdict.meta?.mock) {
     card.append(el("p", { className: "note" }, "Sample result. The server is in test mode, so no AI looked at this listing."));
   }
   card.append(el("p", { className: `badge ${tone}` }, label));
@@ -93,6 +126,7 @@ export function renderVerdict(root, verdict, listing) {
     card.append(section);
   }
   if (verdict.vinCheck) card.append(vinSection(verdict.vinCheck));
+  card.append(readout(listing, Boolean(verdict.meta?.demo)));
   root.replaceChildren(card);
 }
 

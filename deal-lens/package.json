@@ -8,7 +8,8 @@
     "test": "npm run test:unit && npm run test:e2e",
     "test:unit": "node --test \"test/unit/*.test.js\"",
     "test:e2e": "node --test --test-concurrency=1 \"test/e2e/*.e2e.js\"",
-    "icons": "node tools/make-icons.js"
+    "icons": "node tools/make-icons.js",
+    "zip": "rm -rf dist && mkdir -p dist && cp -R extension dist/deal-lens-extension && cd dist && zip -qr deal-lens-extension.zip deal-lens-extension && rm -rf deal-lens-extension"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.131.0"

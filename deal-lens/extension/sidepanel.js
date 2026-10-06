@@ -1,10 +1,13 @@
 // Deal Lens side panel: reads the listing in the current tab, sends it to the server, shows the verdict.
 import { API_BASE } from "./config.js";
+import { demoVerdict } from "./demo.js";
 import { readListing } from "./reader.js";
 import { renderError, renderVerdict } from "./render.js";
 
 const PENDING_MAX_AGE_MS = 15_000;
 const SCREENSHOT_MAX_SIDE = 1280;
+// No server configured: read the page and show a sample verdict; nothing is sent anywhere.
+const DEMO = !API_BASE;
 
 const $ = (id) => document.getElementById(id);
 const statusEl = $("status");
@@ -113,7 +116,7 @@ async function askServer(body) {
 
 async function runCheck(tabId) {
   if (running) return;
-  if (!(await store.get("consentAt"))) {
+  if (!DEMO && !(await store.get("consentAt"))) {
     waiting = { tabId };
     show("consent");
     return;
@@ -130,9 +133,14 @@ async function runCheck(tabId) {
     if (!listing || (!listing.title && !listing.pageText)) {
       throw new ShownError("This page doesn't look like a listing. Open a single listing and try again.");
     }
-    const shot = await screenshot(tab.windowId);
-    setStatus("Checking the price…");
-    const verdict = await askServer({ installId: await installId(), listing, screenshot: shot });
+    let verdict;
+    if (DEMO) {
+      verdict = demoVerdict(listing);
+    } else {
+      const shot = await screenshot(tab.windowId);
+      setStatus("Checking the price…");
+      verdict = await askServer({ installId: await installId(), listing, screenshot: shot });
+    }
     setStatus("");
     renderVerdict(resultEl, verdict, listing);
     resultEl.hidden = false;
@@ -187,6 +195,7 @@ chrome.runtime.onMessage.addListener((message) => {
 checkBtn.addEventListener("click", () => runCheck());
 
 (async () => {
-  if (!(await store.get("consentAt"))) show("consent");
+  if (DEMO) setStatus("Demo mode. Open a listing, then click the Deal Lens icon in your toolbar.");
+  else if (!(await store.get("consentAt"))) show("consent");
   await takePendingCheck();
 })();

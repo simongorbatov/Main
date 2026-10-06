@@ -7,6 +7,10 @@ a fair price range, a verdict, red flags, and questions to ask the seller.
 **Status:** week 1, v0. The extension and server work end to end in test mode (sample verdicts,
 no AI). Next is step 3: deploy the server with a real API key and run real checks.
 
+**Demo mode:** with `API_BASE` empty in `extension/config.js` (the default), the extension needs no
+server. It reads the listing and shows a placeholder verdict plus "What Deal Lens read from this
+page", so the page reader can be tried on real sites. Nothing leaves the browser.
+
 ## Folders
 
 - `extension/`: the Chrome extension (Manifest V3, side panel). Plain JavaScript, no build step.
@@ -18,9 +22,9 @@ no AI). Next is step 3: deploy the server with a real API key and run real check
 
 ## Install it on your Chrome (until it's in the Chrome Web Store)
 
-1. Unzip the `extension` folder somewhere you'll keep it.
+1. Unzip the extension somewhere you'll keep it (`npm run zip` builds `dist/deal-lens-extension.zip`).
 2. Go to `chrome://extensions` and turn on **Developer mode** (top right).
-3. Click **Load unpacked** and pick the `extension` folder.
+3. Click **Load unpacked** and pick the folder that has `manifest.json` in it.
 4. Pin Deal Lens from the puzzle-piece menu. Open a listing and click the icon, or press
    Alt+Shift+D.
 
