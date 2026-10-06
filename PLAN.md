@@ -4,8 +4,9 @@
 
 ## Oct 6 re-audit
 - 0 orders since Sept 18. Only open paid order: #1093 (backorder, noted). No new disputes.
-- **11 sessions reached checkout Oct 2–5, 0 completed.** One CA buyer tried the Ultrabee brake kit ($200) 5× on Sept 27 and again Oct 3. Repeated tries = payment likely failing. Run a real test checkout now; if cards fail, Shopify Payments may be restricted (check the payouts page).
-- "SAME DAY SHIPPING" still on the axbolts LBX + Ultra Bee titanium kits, and "next day shipping" in an Mxp pegs title. Drop-ship = only keep if the vendor guarantees it.
+- 11 sessions reached checkout Oct 2–5, 0 completed. Checked: test card payment works, shipping rates exist for all US states. Not a broken checkout — it's ~10 visitors/day and no own stock. One CA buyer tried the Ultrabee brake kit ($200) 6 times; contact them (Abandoned checkouts) when brake kits are back.
+- Collective (drop-ship) shipping claims are accurate per owner.
+- **Policy fixes pending (manual — API has no policy write access):** Refund policy 7→14 days and return email admin@pnwcustoms-com.net → sales@pnwcustoms.us; Shipping policy: remove "Expedited 1–3 days" (no such rate), processing = "in-stock items ship in 1–3 business days", add partner-shipped items paragraph.
 - Drop-ship stock counts move on their own (supplier sync via Shopify Collective), so those listings track supplier stock.
 - YannsPowders: Shopify Collective says 4 suppliers have product errors and RegenRides is no longer eligible. Check pending RegenRides orders/payments before closing.
 - Cowork results for Emily / Andrea / Socal / payouts not visible from here.
