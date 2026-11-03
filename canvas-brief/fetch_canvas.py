@@ -202,6 +202,7 @@ def main():
             ctx = f"{c.get('course_code')} / assignment: {a.get('name')}"
             add_videos(find_videos(desc_html, BASE), ctx)
             result["assignments"].append({
+                "id": a.get("id"),
                 "course": c.get("course_code"),
                 "name": a.get("name"),
                 "due_at": due,
