@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Post a markdown brief as a new page under the 📚 Canvas Briefs page in Notion.
+"""Post a markdown brief as a new page under School / 📚 Canvas Briefs in Notion.
 
   notion_brief.py <brief.md> [title]
-Reads NOTION_TOKEN and NOTION_BRIEFS_PAGE (default: Simon HQ / Canvas Briefs). Prints the page URL.
+Reads NOTION_TOKEN and NOTION_BRIEFS_PAGE (default: School / Canvas Briefs). Prints the page URL.
 Supports headings (#, ##, ###), bullets (-, *), numbered lists, bold **x**, and plain paragraphs.
 """
 import datetime as dt

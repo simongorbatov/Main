@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Upsert Canvas to-do items into the Notion ✅ Tasks database (School track).
+"""Upsert Canvas to-do items into the Notion "Canvas Tasks" database (School page).
 
 Reads:
   NOTION_TOKEN          internal integration token (https://www.notion.so/profile/integrations)
-  NOTION_TASKS_DS       data source id of ✅ Tasks (default: Simon HQ's)
+  NOTION_TASKS_DS       data source id of Canvas Tasks (default: the one under the School page)
   BRIEF_TZ              timezone for due dates (default America/Los_Angeles)
 
 Usage:
@@ -14,13 +14,14 @@ Writes <out_dir>/notion_rows.json mapping canvas_id -> notion page url.
 import datetime as dt
 import json
 import os
+import re
 import sys
 from zoneinfo import ZoneInfo
 
 import requests
 
 TOKEN = os.environ.get("NOTION_TOKEN", "")
-DS = os.environ.get("NOTION_TASKS_DS", "e162ebe2-7ab9-4b99-a818-6c9a41f48e8e")
+DS = os.environ.get("NOTION_TASKS_DS", "9022dec9-e1ea-4808-8d9c-20f13a582f48")
 API = os.environ.get("NOTION_API", "https://api.notion.com/v1")
 TZ = ZoneInfo(os.environ.get("BRIEF_TZ", "America/Los_Angeles"))
 HEADERS = {"Authorization": f"Bearer {TOKEN}", "Notion-Version": "2025-09-03", "Content-Type": "application/json"}
@@ -36,7 +37,7 @@ def call(method, path, **body):
     if r.status_code == 401:
         die("Notion returned 401: NOTION_TOKEN is missing or wrong.")
     if r.status_code == 404:
-        die("Notion returned 404: share the ✅ Tasks database with the integration (page ••• > Connections).")
+        die("Notion returned 404: share the School page with the integration (page ••• > Connections).")
     if not r.ok:
         die(f"Notion {method} {path} -> {r.status_code}: {r.text[:300]}")
     return r.json()
@@ -56,8 +57,7 @@ def props_for(item):
     due = item.get("due_at")
     p = {
         "Task": {"title": [{"text": {"content": item["title"][:200]}}]},
-        "Track": {"select": {"name": "School"}},
-        "Area": {"select": {"name": "School"}},
+        "Type": {"select": {"name": item.get("type") or "Other"}},
         "Course": rich(item.get("course")),
         "Canvas ID": rich(item["canvas_id"]),
         "Done": {"checkbox": bool(item.get("done"))},
@@ -69,40 +69,42 @@ def props_for(item):
     if due:
         local = dt.datetime.fromisoformat(due.replace("Z", "+00:00")).astimezone(TZ)
         p["Due"] = {"date": {"start": local.isoformat(timespec="minutes")}}
-    if item.get("priority"):
-        p["Priority"] = {"select": {"name": item["priority"]}}
     return p
+
+
+TYPE_MAP = {"assignment": "Assignment", "quiz": "Quiz", "discussion_topic": "Discussion", "wiki_page": "Reading",
+            "Page": "Reading", "File": "Reading", "ExternalUrl": "Other", "ExternalTool": "Other"}
+
+
+def type_for(raw, title=""):
+    if raw in TYPE_MAP:
+        return TYPE_MAP[raw]
+    return "Video" if re.search(r"video|watch|lecture|recording", title or "", re.I) else "Other"
 
 
 def items_from(data):
     """Turn canvas.json into one row per thing to do, keyed by a stable Canvas id."""
     out = {}
-    now = dt.datetime.now(dt.timezone.utc)
     for p in data.get("planner", []):
         cid = f"{p['type']}:{p.get('plannable_id')}"
-        due = p.get("due_at")
-        pri = None
-        if due:
-            hrs = (dt.datetime.fromisoformat(due.replace("Z", "+00:00")) - now).total_seconds() / 3600
-            pri = "Must do" if hrs < 48 else "Should do"
         out[cid] = {"canvas_id": cid, "title": p["title"] or "(untitled)", "course": p["course"],
-                    "due_at": due, "points": p.get("points"), "url": p.get("url"),
-                    "done": p["submitted"] or p["marked_complete"], "priority": pri}
+                    "due_at": p.get("due_at"), "points": p.get("points"), "url": p.get("url"),
+                    "done": p["submitted"] or p["marked_complete"], "type": type_for(p["type"], p["title"])}
     # Assignments carry instructions the planner lacks; merge notes in, add any the planner missed.
     for a in data.get("assignments", []):
         match = out.get(f"assignment:{a.get('id')}") or next((v for v in out.values() if v["url"] == a["url"]), None)
         if match is None:
             cid = f"assignment-url:{a['url']}"
             match = out[cid] = {"canvas_id": cid, "title": a["name"], "course": a["course"], "due_at": a["due_at"],
-                                "points": a["points"], "url": a["url"], "done": a["submitted"], "priority": None}
+                                "points": a["points"], "url": a["url"], "done": a["submitted"], "type": "Assignment"}
         match["instructions"] = (a.get("description") or "")[:600]
     for m in data.get("module_items", []):
         if not m.get("has_requirement") or m["type"] in ("Assignment", "Quiz", "Discussion"):
             continue  # graded things already come through the planner
         cid = f"module:{m.get('url') or m.get('external_url')}"
-        out[cid] = {"canvas_id": cid, "title": f"{m['type']}: {m['title']}", "course": m["course"],
+        out[cid] = {"canvas_id": cid, "title": m["title"], "course": m["course"],
                     "due_at": m.get("due_at"), "points": None, "url": m.get("url") or m.get("external_url"),
-                    "done": False, "priority": "Could do"}
+                    "done": False, "type": type_for(m["type"], m["title"])}
     return list(out.values())
 
 
