@@ -8,22 +8,23 @@
 | Item | Cost |
 |---|---|
 | Samples of 3 parts, shipped to me | $1,500 |
-| First batch: 3 steering wheels, 8 RGB modules, 4 lips | $5,200 |
+| First batch: 3 steering wheels, 8 RGB modules, 3 intakes | $4,900 |
 | Shopify, domain, packaging, install bay fees | $500 |
-| Buffer | $800 |
+| Buffer | $1,100 |
 
 ## The parts (edit these)
 | Part | Lands at (est.) | Sells for | Margin |
 |---|---|---|---|
 | Carbon/Alcantara steering wheel (fits M5 and M8) | $600 | $1,800 | ~$1,100 |
 | RGB DRL headlight modules (fits M5 and M8) | $200 | $650 | ~$400 |
-| Front lip, M5 and M8 versions | $450 | $1,200 | ~$650 |
-| Valved axle-back exhaust (pre-order only, no stock) | $900 | $2,200 | ~$1,100 |
+| Carbon cold air intake, S63 (fits M5 and M8) | $500 | $1,400 | ~$800 |
+| Front lip, M5 and M8 versions (pre-order only) | $450 | $1,200 | ~$650 |
+| Valved axle-back exhaust (pre-order only) | $900 | $2,200 | ~$1,100 |
 
-Wheels, RGB, and lips are stocked. Exhaust is ordered only against a paid deposit. The first two fit both cars, so one listing sells to the whole platform. Nothing the factory M Carbon package already includes (mirrors, diffuser, intakes, spoiler). Landed costs are estimates. Replaced with real factory quotes before any money moves.
+Steering wheels, RGB, and intakes are stocked. All three fit both cars, so one listing sells to the whole platform. Lips and exhausts are bumper-specific and bulky, so they are ordered only against a paid deposit. Nothing the factory M Carbon package already includes (mirrors, diffuser, intakes, spoiler). Landed costs are estimates. Replaced with real factory quotes before any money moves.
 
 ## The math
-Average margin per sale ~$650 after fees. 13 sales pays back $8,000.
+Average margin per sale ~$700 after fees. 12 sales pays back $8,000.
 Target: 2 sales a week by month 3. Payback lands around month 6. Month 12 is the hard deadline.
 
 ## 90 days
