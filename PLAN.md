@@ -1,23 +1,47 @@
-# PNW Customs: Sept 30 reset
+# F9x Carbon: one-page plan (draft 1, Nov 5)
 
-**What happened since Sept 19:** 1 order ($60). $1,200 refunded. 21 visitors this week.
-#1073 ($1,013) still unshipped after 102 days. #1097 ($60) after 12. "Box the orders" slipped 3 times.
+**The business:** own-label carbon fiber parts for the BMW M8 and M5 (F9x chassis). Every part test-fit on my own M8 Competition and filmed. Sold through Instagram, TikTok, Bimmerpost, and local install in Seattle. G80 M3 carbon is crowded. F9x is not, and the owners are adults who spend.
 
-**The plan is not the problem. Shipping is.** Nothing else matters until paid orders leave the house.
+**The ask:** $8,000. Paid back in full within 12 months. Monthly number below so you can check it.
 
-## Today, 30 min
-- Ship #1073 and #1097. Can't ship today = refund today.
+## Where the money goes
+| Item | Cost |
+|---|---|
+| Samples of 3 parts, shipped to me | $1,500 |
+| First batch: 12 units across the 3 parts | $5,000 |
+| Shopify, domain, packaging, install bay fees | $500 |
+| Buffer | $1,000 |
 
-## This week
-- Close the old YannsPowders store. You pay $74/mo for orders you can't ship.
-- Before closing: refund #1927 (Emily), answer Andrea, cancel the 7 Socal Builds orders.
+## The parts (edit these)
+| Part | Lands at (est.) | Sells for | Margin |
+|---|---|---|---|
+| Front lip | $450 | $1,200 | ~$650 |
+| Rear diffuser | $400 | $1,100 | ~$600 |
+| Mirror caps | $150 | $450 | ~$250 |
 
-## One rule until it holds 7 days straight
-Ship what's paid. Answer what's asked. That's the whole job.
-TikTok and email are paused. They come back after 7 clean days.
+Landed costs are estimates. Replaced with real factory quotes before any money moves.
 
-## Need cash now
-Post the clearance the calendar already planned. This weekend. Wheelsets and controllers first.
+## The math
+Average margin per sale ~$500 after fees. 16 sales pays back $8,000.
+Target: 2 sales a week by month 3. Payback lands around month 6. Month 12 is the hard deadline.
 
-## Still true
-$5k month = same routine, done daily. The old plan is in git history when you're ready for it.
+## 90 days
+- **Month 1:** quote 3 factories, order samples, test-fit on my car, film it. Post daily. Take 5 pre-orders at 50% deposit. **No batch is ordered until 5 deposits are in.**
+- **Month 2:** batch lands. Deliver all 5 pre-orders within 7 days of arrival. Every one filmed.
+- **Month 3:** 8 sales. First $2,000 repaid.
+
+## Rules that make this different from last time
+1. Nothing ships. Customer drives to the install shop or picks up local. Sale closes the loop.
+2. Pre-orders fund batches. No inventory sits on a guess.
+3. Any paid order not delivered in 7 days gets refunded that day.
+4. First of every month: sales count and repaid-to-date sent to you. Miss two months in a row and the store pauses.
+
+## Monthly check
+| Month | Sales | Repaid to date |
+|---|---|---|
+| 1 | 0 (5 deposits) | $0 |
+| 2 | 5 | $0 |
+| 3 | 8 | $2,000 |
+| 4 | 8 | $4,500 |
+| 5 | 8 | $7,000 |
+| 6 | 8 | $8,000 |
