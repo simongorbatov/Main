@@ -16,10 +16,10 @@
 | Part | Lands at (est.) | Sells for | Margin |
 |---|---|---|---|
 | Front lip | $450 | $1,200 | ~$650 |
-| Rear diffuser | $400 | $1,100 | ~$600 |
-| Mirror caps | $150 | $450 | ~$250 |
+| Side skirt extensions | $350 | $900 | ~$450 |
+| Kidney grilles | $200 | $550 | ~$300 |
 
-Landed costs are estimates. Replaced with real factory quotes before any money moves.
+Only parts the factory M Carbon Exterior package does not include. That package already gives most F9x owners mirror caps, diffuser, intakes, and spoiler. Landed costs are estimates. Replaced with real factory quotes before any money moves.
 
 ## The math
 Average margin per sale ~$500 after fees. 16 sales pays back $8,000.
