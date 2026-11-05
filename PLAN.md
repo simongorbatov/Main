@@ -8,21 +8,21 @@
 | Item | Cost |
 |---|---|
 | Samples of 3 parts, shipped to me | $1,500 |
-| First batch: 12 units across the 3 parts | $5,000 |
+| First batch: 6 lips, 10 RGB modules | $5,000 |
 | Shopify, domain, packaging, install bay fees | $500 |
 | Buffer | $1,000 |
 
 ## The parts (edit these)
 | Part | Lands at (est.) | Sells for | Margin |
 |---|---|---|---|
-| Front lip | $450 | $1,200 | ~$650 |
-| Side skirt extensions | $350 | $900 | ~$450 |
-| Kidney grilles | $200 | $550 | ~$300 |
+| Front lip (carbon) | $450 | $1,200 | ~$650 |
+| RGB DRL headlight modules | $200 | $650 | ~$400 |
+| Valved axle-back exhaust (pre-order only, no stock) | $900 | $2,200 | ~$1,100 |
 
-Only parts the factory M Carbon Exterior package does not include. That package already gives most F9x owners mirror caps, diffuser, intakes, and spoiler. Landed costs are estimates. Replaced with real factory quotes before any money moves.
+Lip and RGB are stocked. Exhaust is ordered only against a paid deposit. Nothing the factory M Carbon package already includes (mirrors, diffuser, intakes, spoiler). Landed costs are estimates. Replaced with real factory quotes before any money moves.
 
 ## The math
-Average margin per sale ~$500 after fees. 16 sales pays back $8,000.
+Average margin per sale ~$550 after fees. 15 sales pays back $8,000.
 Target: 2 sales a week by month 3. Payback lands around month 6. Month 12 is the hard deadline.
 
 ## 90 days
